@@ -15,7 +15,8 @@ The project also evaluates **accuracy** and **CPU runtime** for different **mesh
 ## 🖼️ Problem Description
 The **physical domain** and boundary conditions are shown below:
 
-![Problem Domain](problem-1.png)  
+![problem](problem-1.PNG) 
+
 *Figure 1: Schematic of the Physical Problem Domain Showing Geometry and Boundary Conditions*
 
 The **Laplace equation in 2D**:
