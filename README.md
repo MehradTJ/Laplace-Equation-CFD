@@ -16,6 +16,8 @@ The project also evaluates **accuracy** and **CPU runtime** for different **mesh
 The **physical domain** and boundary conditions are shown below:
 
 ![Problem Domain](problem_image.png)  
+*Figure 1: Schematic of the Physical Problem Domain Showing Geometry and Boundary Conditions*
+
 
 The **Laplace equation in 2D**:
 
@@ -51,7 +53,7 @@ where \(T(x,y)\) represents the temperature distribution in the domain.
 **Numerical Methods Implemented:**
 - 📌 **Gauss-Seidel Method** - Iterative solver using point relaxation.
 - 📌 **Jacobi Method** - Basic iterative solver updating all points simultaneously.
-- 📌 **SOR (Successive Over-Relaxation)** - Accelerated Gauss-Seidel with relaxation factor (\(\omega = 1.5\)).
+- 📌 **SOR (Successive Over-Relaxation)** - Accelerated Gauss-Seidel with relaxation factor ($\omega = 1.5$).
 - 📌 **Line SOR (LSOR)** - Solves lines implicitly for better stability.
 - 📌 **Fully Implicit Method** - Direct solver using matrix inversion.
 
@@ -60,7 +62,7 @@ where \(T(x,y)\) represents the temperature distribution in the domain.
 ## 📊 Results & Analysis
 - **Accuracy**: Second-order discretization achieves **order of accuracy ~2**.
 - **Runtime**: 
-  - 🚀 **SOR with \(\omega = 1.5\)** is the fastest among **iterative methods**.
+  - 🚀 **SOR with ($\omega = 1.5$)** is the fastest among **iterative methods**.
   - ⚡ **Fully Implicit Method** is the most efficient for **large-scale problems**.
 
 **Comparative Runtime Analysis:**
