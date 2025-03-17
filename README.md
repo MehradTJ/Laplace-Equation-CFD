@@ -79,7 +79,7 @@ where \(T(x,y)\) represents the temperature distribution in the domain.
 ## 🚀 How to Run
 1️⃣ Clone the repository:
 ```bash
-  git clone https://github.com/yourusername/Numerical-Laplace-Solver.git
+  git clone https://github.com/MehradTJ/Numerical-Laplace-Solver.git
   cd Numerical-Laplace-Solver
 ```
 2️⃣ Install dependencies:
